@@ -1,23 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route } from 'react-router-dom'
+import Weather from './Weather'
+import ClimateChange from './ClimateChange'
+import Navigation from './component/Navigation'
+import { Switch } from 'react-router-dom'
+import News from './News'
+import More from './component/More.js'
+import Apexchart from './component/Apexchart.js'
+import GdpChart from './component/GdpChart.js'
+
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+     <Navigation/>
+
+<Switch>
+    <Route exact path="/">
+    <Weather/> 
+    </Route>
+    <Route exact path="/climate">
+    <ClimateChange/> 
+    </Route>
+    <Route exact path="/News">
+   
+        <News/>
+    </Route>
+    <Route exact path="/more">
+<More/>
+    </Route>
+    <Route exact path="/chart">
+      <div style ={{display:"block",
+    background: "lightgray",
+    padding: "80px 20px",
+    margin: "0 auto"
+   
+    }}>
+<Apexchart />
+<GdpChart/>
+</div>
+    </Route>
+    
+    </Switch>  
+   
     </div>
   );
 }
