@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/weather-report-app/static/css/main.11897b43.chunk.css",
+    "main.js": "/weather-report-app/static/js/main.1c277856.chunk.js",
+    "main.js.map": "/weather-report-app/static/js/main.1c277856.chunk.js.map",
+    "runtime-main.js": "/weather-report-app/static/js/runtime-main.15043dac.js",
+    "runtime-main.js.map": "/weather-report-app/static/js/runtime-main.15043dac.js.map",
+    "static/css/2.70690e0f.chunk.css": "/weather-report-app/static/css/2.70690e0f.chunk.css",
+    "static/js/2.501bd1fe.chunk.js": "/weather-report-app/static/js/2.501bd1fe.chunk.js",
+    "static/js/2.501bd1fe.chunk.js.map": "/weather-report-app/static/js/2.501bd1fe.chunk.js.map",
+    "index.html": "/weather-report-app/index.html",
+    "static/css/2.70690e0f.chunk.css.map": "/weather-report-app/static/css/2.70690e0f.chunk.css.map",
+    "static/css/main.11897b43.chunk.css.map": "/weather-report-app/static/css/main.11897b43.chunk.css.map",
+    "static/js/2.501bd1fe.chunk.js.LICENSE.txt": "/weather-report-app/static/js/2.501bd1fe.chunk.js.LICENSE.txt",
+    "static/media/Bg.649fb18b.jpg": "/weather-report-app/static/media/Bg.649fb18b.jpg",
+    "static/media/animation.422d0bce.gif": "/weather-report-app/static/media/animation.422d0bce.gif",
+    "static/media/evening.08297579.jpg": "/weather-report-app/static/media/evening.08297579.jpg",
+    "static/media/font-awesome.min.css": "/weather-report-app/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/morning.0e01e3e2.jpg": "/weather-report-app/static/media/morning.0e01e3e2.jpg",
+    "static/media/night.d80fad59.jpg": "/weather-report-app/static/media/night.d80fad59.jpg",
+    "static/media/noon.3a3d85eb.jpg": "/weather-report-app/static/media/noon.3a3d85eb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15043dac.js",
+    "static/css/2.70690e0f.chunk.css",
+    "static/js/2.501bd1fe.chunk.js",
+    "static/css/main.11897b43.chunk.css",
+    "static/js/main.1c277856.chunk.js"
+  ]
+}
