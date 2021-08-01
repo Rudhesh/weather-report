@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Rudhesh.github.io/weather-report-app",
-  "name": "weather-report-app",
+  "homepage": "https://rudhesh.github.io/weather-report",
+  "name": "weather-report",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

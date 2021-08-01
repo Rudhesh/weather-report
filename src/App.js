@@ -20,7 +20,7 @@ function App() {
      <Navigation/>
 
 <Switch>
-    <Route exact path="/">
+    <Route  path="/weather">
     <Weather/> 
     </Route>
     <Route exact path="/climate">

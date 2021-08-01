@@ -6,7 +6,7 @@ export default function Navigation() {
         <div>
             <ul className="navigation">
                 {/* <li className="ani"><img src={Ani} alt ="Ani"/></li> */}
-                <li><NavLink exact to = "/">Weather</NavLink></li>
+                <li><NavLink exact to = "/weather">Weather</NavLink></li>
                 <li><NavLink exact to = "/climate">Climate Change</NavLink></li>
                 <li><NavLink exact to = "/news">News</NavLink></li>
                 <li><NavLink exact to = "/more">More</NavLink></li>
