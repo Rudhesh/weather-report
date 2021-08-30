@@ -1,147 +1,123 @@
-*{
-    font-family: 'Exo 2', sans-serif;
-    font-size: 1.1em;
-    color: rgb(212, 212, 212);
-    margin: 0;
-    
+* {
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px !important;
+  color: rgb(194, 194, 194);
+  margin: 0;
 }
 
- 
-
 .input {
-    margin-top: 100px;
-    margin-bottom: 30px;
-
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .weather {
-
-    padding: 0px;
-    text-align: center;
-    height: 100vh;
-    width: 100vw;
+  padding: 0px;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .weatherReport {
-         background-color: rgba(0, 0, 0, 0.61);
-         border-radius: 20px;
-         padding: 70px 100px; 
-         width: 40%;
-
-         margin: auto;
-
+  background-color: rgba(0, 0, 0, 0.61);
+  border-radius: 10px;
+  padding: 70px 100px;
+  width: 50%;
+  margin: auto;
 }
 
 .input {
-    border-radius: 10px;
-    border: transparent;
- 
-    background-color: rgba(0, 0, 0, 0.397);
-    padding: 12px;
-    font-size: 1em;
-    
+  border-radius: 10px;
+  border: transparent;
+
+  background-color: rgba(0, 0, 0, 0.397);
+  padding: 12px;
+  font-size: 1.3rem;
 }
 
 input::placeholder {
-    color: white;
+  color: white;
 }
-
-
-
 
 .input:focus {
-    outline: none;
+  outline: none;
 }
 
-
-
-.time > h1{
-    margin:  120px auto;
-    background: rgba(0, 0, 0, 0.438);
-    border: 5px solid rgba(255, 255, 255, 0.815);
-    width: 200px; 
-    height: 200px;
-    border-radius: 50%;
-    display: flex; 
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    padding: 35px;   
-    font-size: 2.8rem; 
-  }
-
-
+.time > h1 {
+  margin: 120px auto;
+  background: rgba(0, 0, 0, 0.438);
+  border: 5px solid rgba(255, 255, 255, 0.815);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+  font-size: 2.8rem;
+}
 
 table {
-    margin-top: 45px;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-    background-color:   rgba(0, 17, 255, 0.459);
-    text-align: left;
-
-
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  background-color: rgba(0, 17, 255, 0.459);
+  text-align: left;
 }
 
-
- td {
- 
-    border: 1px solid rgb(133, 133, 133);
-    padding:  20px;
-    font-size: 1.8rem;
-
+td {
+  border: 1px solid rgb(133, 133, 133);
+  padding: 20px;
+  font-size: 1.5rem;
 }
 
+p {
+  font-size: 1.5rem;
+}
 
 p > img {
-    position: absolute;
-    z-index: -1;
-    left: 0; 
-    top: 0;
-     bottom:0px;
-width: 100vw;
-height: 100vh;
-object-fit: cover;
-   
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  bottom: 0px;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .background > img {
-
-    position: absolute;
-    z-index: -2;
-    left: 0; 
-    top: 0;
-     bottom:0px;
-width: 100vw;
-height: 100vh;
-object-fit: cover;   
+  position: absolute;
+  z-index: -2;
+  left: 0;
+  top: 0;
+  bottom: 0px;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
-
-
-
 
 .temp {
-    margin: 40px 0 20px 0;
+  margin: 40px 0 20px 0;
 }
 
-
 span {
-    font-size: 10rem;
-    margin-right: 40px;
+  font-size: 10rem;
+  margin-right: 40px;
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
 }
 
 section > div {
-    text-align: left;
-    
-} 
+  text-align: left;
+}
 
 h4 {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }

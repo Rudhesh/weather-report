@@ -327,6 +327,7 @@ function Weather() {
 
           <table className="table">
 
+<tbody>
             <tr className="sunLight">
               <td>Sunrise: {onlyEurope((city.sys.country), sunrise((city.sys.sunrise)), sunriseUK((city.sys.sunrise)), sunriseUS((city.sys.sunrise)), sunriseIN((city.sys.sunrise)))}</td>
               <td>Sunset: {onlyEurope((city.sys.country), sunrise((city.sys.sunset)), sunriseUK((city.sys.sunset)), sunriseUS((city.sys.sunset)), sunriseIN((city.sys.sunset)))}</td>
@@ -339,7 +340,7 @@ function Weather() {
               <td>Wind speed: {Math.round((city.wind.speed * 18) / 5)} Km/hr</td>
               <td>Wind Direction: {city.wind.deg}°deg / {convertWindDir(city.wind.deg)}</td>
             </tr>
-
+            </tbody>
 
           </table>
 

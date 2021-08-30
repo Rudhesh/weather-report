@@ -1,6 +1,7 @@
 import Chart from 'react-apexcharts'
 import React, { Component } from 'react';
 import axios from 'axios';
+import './GdpChart.css'
 
 export default class GdpChart extends Component {
     constructor(props) {
@@ -97,17 +98,15 @@ export default class GdpChart extends Component {
     render() {
       return (
           <div style={{
-            // position: "absolute",
-            // bottom: "10%",
-            // left: "10%",
-            fontSize: "10px"
-            
+            fontSize: "12px"
+
           }}>
         <Chart style={{
            
-            fontSize: "10px"
+          
+      
             
-          }}  options={this.state.options} series={this.state.series}  type="line" width={1500} height={520} />
+          }}  options={this.state.options} series={this.state.series}  type="line" width={1500} height={520}/>
         </div>
       )
     }
