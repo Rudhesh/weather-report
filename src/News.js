@@ -2,15 +2,18 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 
 import NewsItems from "./component/NewsItems";
+import LocalNews from "./component/LocalNews";
 
 export default function News(props) {
   const [data, setData] = useState([]);
-  const apiKey = "41d2839a840b4f6bba45da4f6d059a52";
+  // const apiKey = "41d2839a840b4f6bba45da4f6d059a52";
+  const apiKey = "2e3756b6ac1aa2eb42e0835c9900cc84";
 
   useEffect(() => {
     const getArticle = async () => {
       const res = await Axios.get(
-        "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=41d2839a840b4f6bba45da4f6d059a52"
+        `https://gnews.io/api/v4/top-headlines?lang=en&token=${apiKey}`
+        // "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=41d2839a840b4f6bba45da4f6d059a52"
       );
 
       console.log(res);
@@ -58,13 +61,22 @@ export default function News(props) {
           fontSize: "1rem",
         }}
       >
-        {data.map(({ title, description, url, urlToImage, i }) => (
+        {/* {data.map(({ title, description, url, urlToImage, i }) => (
           <NewsItems
             i={i}
             title={title}
             description={description}
             url={url}
             urlToImage={urlToImage}
+          />
+        ))} */}
+        {data.map(({ title, image, url, content, description }) => (
+          <LocalNews
+            title={title}
+            image={image}
+            url={url}
+            content={content}
+            description={description}
           />
         ))}
       </div>
